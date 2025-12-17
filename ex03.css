@@ -1,0 +1,11 @@
+#div4 ~ div {background-color: red; }
+#div4 + div {background-color: blue; }
+
+#div3 {width: 200px; height: 200px; background-color: green;}
+#div3 > div > h3 {color: aqua;}
+
+#div2 {width: 200px; height: 200px; background-color: gold;}
+#div2 > h3 {color: green;}
+
+#div1 {width: 200px; height: 200px; background-color: gray;}
+#div1 h3 {color: red;}
