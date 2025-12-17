@@ -1,0 +1,49 @@
+#wrap {
+    width: 200px; height: 500px; border: 1px solid gray;
+    border-radius: 5px;
+}
+#logo {overflow: hidden; width: 200px; height: 200px; }
+
+
+.item {
+    width: 100px; height: 200px; border: 2px solid gray;
+    border-radius: 5px; overflow: hidden;
+}
+.item div:nth-of-type(1) {
+    width: 100px; height: 100px;
+    
+    overflow: hidden;
+}
+.item img {
+    width: 100px; height: 100px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.1s;
+    }
+}
+
+.item nth-of-type(2) {
+    height: 70px; background-color: bisque;    
+
+}
+.item a :nth-of-type(2) > a{
+    color: black;
+    text-decoration: none;
+    &:hover{
+        color:red;
+    }
+}
+.item :nth-of-type(3){
+    background-color: cadetblue;
+    text-align: right; color: blue;
+}
+logo ~ button{
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    border: none;
+     &:hover{
+        background-color:red;
+    }
+
+}
