@@ -1,0 +1,39 @@
+#wrap{width: 1200px; height: 500px; border: 1px solid; margin: auto;}
+#wrap div {width: 216px; height: 216px; background-color: aqua; 
+    display: inline-block;
+    background-size: cover;
+    margin-right: 30px;
+    &:nth-last-of-type(1){margin-right: 0;}
+    &:hover > span {
+        color:red; 
+        background-color: darkblue;
+        opacity: 0.8;
+        transition: all ls;
+    }
+    /*
+    &:hover{
+        & > span {
+          color: orangered;
+
+        }
+    }
+        */
+}
+
+#wrap div:nth-of-type(1){background-image: url("강아지사진.jpg");}
+#wrap div:nth-of-type(2){background-image: url("이미지사진.jpg");}
+#wrap div:nth-of-type(3){background-image: url("산사진.jpg");}
+#wrap div:nth-of-type(4){background-image: url("짱구사진.jpg");}
+#wrap div:nth-of-type(5){background-image: url("캐릭터사진.jpg");}
+
+#wrap span{ 
+    opacity: 0.1; /* 글씨 투명하게하는거*/
+    width: 100px;
+    display: block; margin: auto;
+    margin-top: 100px; 
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid gray;
+    border-radius: 10px; /*(라운드 양쪽 내려오게하는거)*/
+    color: brown;
+}
