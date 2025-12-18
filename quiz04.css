@@ -7,7 +7,7 @@
 #list {background-color: yellow; width: 20%;}
 #section{background-color:  cadetblue; width: 60%;}
 #section > div { width: 70%; margin: auto;
-    & div { border: 2px solid; margin-top: 5px; background-color: yellow;} /*표안에색상넣기 마진탑은 위에서 살짝떨어트리기*/
+    & div { height: 2px solid; margin-top: 5px; background-color: yellow;} /*표안에색상넣기 마진탑은 위에서 살짝떨어트리기*/
 }
 
 #side {background-color: yellow; width: 20%;}
